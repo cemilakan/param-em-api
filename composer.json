@@ -1,7 +1,7 @@
 {
     "name": "param/em-api",
     "description": "Laravel için Param EM API entegrasyon paketi. Token alma ve EFT işlemleri gibi servisleri içerir.",
-    "keywords": ["param", "param transfer"],
+    "keywords": ["param", "eft", "transfer", "api", "laravel", "entegrasyon"],
     "license": "MIT",
     "homepage": "https://github.com/cemilakan/param-em-api",
     "authors": [
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^10.0 || ^11.0 || ^12.0"
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
@@ -36,6 +36,5 @@
             "dev-main": "1.0-dev"
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
