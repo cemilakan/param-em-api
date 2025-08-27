@@ -10,9 +10,10 @@ class ParamEmApiServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__ . '/../config/param_em_api.php', 'param_em_api');
 
-        $this->app->singleton(ParamEmApi::class, function ($app) {
-            return new ParamEmApi();
-        });
+        $this->app->singleton(ParamEmApi::class, ParamEmApi::class);
+
+        $this->app->alias(ParamEmApi::class, 'paramemapi');
+
     }
 
     public function boot()
