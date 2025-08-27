@@ -1,5 +1,5 @@
 {
-    "name": "param/em-api",
+    "name": "cemilakan/param-em-api",
     "description": "Laravel için Param EM API entegrasyon paketi. Token alma ve EFT işlemleri gibi servisleri içerir.",
     "keywords": ["param", "eft", "transfer", "api", "laravel", "entegrasyon"],
     "license": "MIT",
